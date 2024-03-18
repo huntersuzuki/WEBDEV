@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>
+			do while loop 
+		</title>
+		<script>
+			var i,n,res;
+			i=1;
+			n=parseFloat(prompt("Enter a number: "));
+			
+			do{
+			
+				res=n*i;
+				document.write(n+"*"+i+"="+res+"<br>");
+				i++;
+			}while(i<=10);
+			
+			/* n=2
+			   i   res=n*i   i++    i<=10	
+				1   2*1=2     2      2<=10 T
+				2   2*2=4     3      3<=10 T
+				3   2*3=6     4      4<=10 T
+				.
+				.
+				.
+				.
+				10  2*10=20   11     11<=10 F
+			
+			
+			*/
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

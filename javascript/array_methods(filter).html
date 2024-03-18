@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+			Array methods | Filter method
+		</title>
+		<script>
+			// filter is a array method which is less complicated and fater to execute.
+			// it's a very important method used to filter out elements in an array object.
+			var arr = [10,27,30,88,1,5,7,4,99,11,12];
+			
+			/*var even = arr.filter(function(ele){
+				return ele%2==0;
+			});
+			
+			document.write("Original array: "+arr+"<br>");
+			document.write("Even array: "+even+"<br>");*/
+			
+			var odd = arr.filter((ele)=>{
+				return ele%2!=0;
+			});
+			document.write("Original array: "+arr+"<br>");
+			document.write("Even array: "+odd+"<br>");
+			
+			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

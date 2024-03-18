@@ -1,0 +1,67 @@
+Combinators 
+===========
+1) Selector can be made up of one or more selectors.
+
+      .select,#one{
+
+
+      }
+
+2) Combinators are used to establish relation between 
+   selectors used in a selector.
+
+3) There are four types of Combinators 
+
+   1) descendent combinator [space]
+
+       It will apply property to all descendent selector in 
+    parent selector.
+
+   2) child selector [>]
+      It will apply property to only child selector in parent selector.
+
+   3) Adjacent sibbling selector [+]
+     It will apply property to element who is sibbling of another 
+     element and which is adjacent to a element.
+   
+   4) General sibbling selector  [~]
+      It will apply property to all elements who are sibblings to 
+      another elements.
+
+
+Pseudo class selector 
+====================
+Pseudo class selector is used to give different state to 
+element.
+
+syntax:
+selector:classname{
+
+    property:value;
+}
+
+classname=> link and hover 
+
+
+attribute selector 
+=================
+attribute and its value can be used as selector.
+
+syntax:
+[attribute]{
+    property:value;
+}
+
+[attribute="value"]{
+    property:value;
+}
+
+Above attribute selector matches the exact value.
+If there is need to match any value or partial part of
+attribute value use [attribute*="value"] selector.
+
+
+      
+
+
+    

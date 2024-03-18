@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>	Value|Manipulation mobile validation</title>
+		<script>
+			var validate = function(){
+				var mob,msg;
+				mob=document.getElementById("usermob");
+				msg=document.getElementById("msgid");
+				//alert(mob.value);
+				if(mob.value.length !== 10){
+					mob.style.outlineColor="red";
+					msg.innerHTML="Invalid";
+					msg.style.color="red"
+				}
+				else{
+					mob.style.outlineColor="green";
+					msg.innerHTML="valid";
+					msg.style.color="green"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<table align="center" style="font-size:40px;font-size:40px;margin-top:200px;">
+			<tr>
+				<td>
+					<label for="usermob"> Mobile number: </label>
+				</td>
+				<td>
+					<input style="font-size:40px;" onkeyup="validate()" type="number" id="usermob" name="customer_mobile_num" placeholder="Mob.No"/>
+					
+				</td>
+				<td>
+					&nbsp; &nbsp;<span id="msgid"></span>
+				</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>

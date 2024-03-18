@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap | Components</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script>
+      /*  function increment(){
+            var cobj,cv;
+            cobj = document.getElementById("count");
+            cv = cobj.innerHTML;
+            cv = parseFloat(cv);
+            cv++;
+            cobj.innerHTML=cv;
+        }
+        function decrement(){
+            var cobj;
+            cobj = document.getElementById("count");
+            cv = cobj.innerHTML;
+            cv = parseFloat(cv);
+            if(cv > 0){
+                cv--;
+                cobj.innerHTML=cv;    
+            }
+            else{
+                alert("Please add a item in the cart");
+            }   
+        }*/
+        function counter(flag){
+            var cobj,cv;
+            cobj = document.getElementById("count");
+            cv = parseFloat(cobj.innerHTML);
+            if(flag == 1){
+                cv++;
+            }
+            else{
+                if(cv > 0){
+                    cv--;
+                }
+                else{
+                    alert("Please add items in cart!!");
+                }
+            }
+            cobj.innerHTML=cv;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <!---  <div class="alert alert-danger">
+                    Your entered password is invalid
+                </div>
+                <div class="alert alert-success">
+                    Your account is created successfully!!!!!
+                </div>--->
+                <button type="button" class="btn btn-primary position-relative mt-5">
+                Cart
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  <div id="count">0</div>
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <!---<br><br>
+              <button class="btn btn-danger" onclick="decrement()">Remove item</button>
+              <button class="btn btn-success" onclick="increment()">Add item</button>--->
+              <!---<br><br>
+              <button class="btn btn-danger" onclick="counter(0)">Remove item</button>
+              <button class="btn btn-success" onclick="counter(1)">Add item</button>--->
+            </div> <!---Column end-->
+            
+            <div class="col-md-3 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/pr1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid et quibusdam reiciendis alias maiores, vero obcaecati eius voluptatem, dolore provident officia totam, ea veniam iste suscipit laboriosam fugit ab.</p>
+                      <p class="card-text">&#8377; 55,999</p>
+                      <a href="#" class="btn btn-primary" onclick="counter(1)">Add to cart</a>
+                      <a href="#" class="btn btn-danger" onclick="counter(0)">Remove item</a>
+                    </div><!--Product 1 end-->
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/pr2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid et quibusdam reiciendis alias maiores, vero obcaecati eius voluptatem, dolore provident officia totam, ea veniam iste suscipit laboriosam fugit ab.</p>
+                      <p class="card-text">&#8377; 15,999</p>
+                      <a href="#" class="btn btn-primary" onclick="counter(1)">Add to cart</a>
+                      <a href="#" class="btn btn-danger" onclick="counter(0)">Remove item</a>
+                    </div><!--Product 2 end-->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/pr3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid et quibusdam reiciendis alias maiores, vero obcaecati eius voluptatem, dolore provident officia totam, ea veniam iste suscipit laboriosam fugit ab.</p>
+                      <p class="card-text">&#8377; 55,999</p>
+                      <a href="#" class="btn btn-primary" onclick="counter(1)">Add to cart</a>
+                      <a href="#" class="btn btn-danger" onclick="counter(0)">Remove item</a>
+                    </div><!--Product 3 end-->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/pr4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 4</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid et quibusdam reiciendis alias maiores, vero obcaecati eius voluptatem, dolore provident officia totam, ea veniam iste suscipit laboriosam fugit ab.</p>
+                      <p class="card-text">&#8377; 10,999</p>
+                      <a href="#" class="btn btn-primary" onclick="counter(1)">Add to cart</a>
+                      <a href="#" class="btn btn-danger" onclick="counter(0)">Remove item</a>
+
+                    </div><!--Product 4 end-->
+                </div>
+            </div>
+        </div><!---Row end-->
+    </div><!---Container end-->
+
+
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

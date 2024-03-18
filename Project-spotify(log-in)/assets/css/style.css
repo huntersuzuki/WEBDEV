@@ -1,0 +1,161 @@
+.header img{
+	width:90px;
+	margin-top:20px;
+	margin-left:700px;
+	
+}
+.mid{
+	margin-left:565px;
+	
+
+}
+.divider{
+	margin-top:30px;
+	margin-left:555px;
+	margin-right:555px;
+}
+.btn1{
+	margin-top:30px;
+	width:370px;
+	height:40px;
+	border-width:0px;
+	border-radius:20px;
+	background-color:#0866ff;
+	color:white;
+	font-family: 'Kanit', sans-serif;
+	font-size:13px;
+	background-image:url("../images/facebook.svg");
+	background-repeat:no-repeat;
+	background-position:50px;
+	background-size:25px;
+}
+.btn2{
+	margin-top:8px;
+	width:370px;
+	height:40px;
+	border-width:0px;
+	border-radius:20px;
+	background-color:black;
+	color:white;
+	font-size:13px;
+	font-family: 'Kanit', sans-serif;
+	background-image:url("../images/apple32.png");
+	background-repeat:no-repeat;
+	background-position:50px;
+	background-size:25px;
+}
+.btn3{
+	margin-top:8px;
+	width:370px;
+	height:40px;
+	border-width:1px;
+	border-radius:20px;
+	background-color:white;
+	color:black;
+	font-family: 'Kanit', sans-serif;
+	font-size:13px;
+	background-image:url("../images/google.png");
+	background-repeat:no-repeat;
+	background-position:50px;
+	background-size:25px;
+}
+.input{
+	margin-top:50px;
+	margin-left:555px;
+}
+fieldset{
+	font-family: 'Kanit', sans-serif;
+	width:370px;
+	height:20px;
+	border-width:0px;
+}
+#uname{
+	font-family: 'Kanit', sans-serif;
+	width:365px;
+	height:40px;
+	border-radius:5px;
+	border-width:1px;
+	transition-property:transform scale;
+	transition-duration:1s;
+	transition-delay:0.5s;
+}
+#uname:hover{
+	transform:scale(1.2);
+	
+}
+#upass{
+	font-family: 'Kanit', sans-serif;
+	margin-top:5px;
+	width:365px;
+	height:40px;
+	border-radius:5px;
+	border-width:1px;
+	transition-property:transform scale;
+	transition-duration:1s;
+	transition-delay:0.5s;
+}
+
+#upass:hover{
+	transform:scale(1.2);
+}
+a{
+	font-family: 'Kanit', sans-serif;
+	margin-left:15px;
+	color:gray;
+}
+a:hover{
+	text-decoration:none;
+}
+.footer{
+	margin-top:55px;
+	margin-left:570px;
+	font-family: 'Kanit', sans-serif;
+}
+.fbtn{
+	
+	float:right;
+	position:absolute;
+	left:790px;
+	bottom:85px;
+	/*margin-right:650px;*/
+	
+}
+#lgbtn{
+	width:150px;
+	height:45px;
+	border-radius:20px;
+	border-width:1px;
+	
+	
+	/*transition-property:transform-scale;
+	transition-duration:1s;
+	transition-delay:0.5s;*/
+}
+#lgbtn:hover{
+	animation-name:loginbtn;
+	animation-duration:1s;
+	animation-timing-function:ease-in-out;
+}
+
+@keyframes loginbtn{
+	0%{background-color:white;}
+	100%{background-color:#1ed760;}
+	
+}
+.crtacc{
+	margin-top:30px;
+	margin-left:640px;
+	font-size:20px;
+	font-family: 'Kanit', sans-serif;
+}
+#signup{
+	margin-top:30px;
+	margin-left:550px;
+	width:400px;
+	height:40px;
+	border-radius:20px;
+	border-width:2px;
+	border-color:black;
+	background-color:white;
+	font-family: 'Kanit', sans-serif;
+}

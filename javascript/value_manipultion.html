@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>	Value|Manipulation</title>
+		<script>
+			var copy = function(){
+				var cur , resi , val;
+				cur=document.getElementById("cusaddid");
+				resi=document.getElementById("resaddid");
+				// getting the address from the textarea
+				val=cur.value;
+				resi.value=val;
+				
+			}
+		</script>
+	</head>
+	<body>
+		<table align="center">
+			<tr>
+				<td>
+					<label for="cusaddid">Current Address</label>
+				</td>
+				<td>
+					<textarea id="cusaddid" name="customer_cur_address" cols="50" rows="20"></textarea></td>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+					<input type="checkbox" onclick="copy()" id="chck" name="custchoice"/>
+					<label for="chck">Check id current address is same.</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label for="resaddid">Residential Address</label>
+				</td>
+				<td>
+					<textarea id="resaddid" name="customer_res_address" cols="50" rows="20"></textarea></td>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,139 @@
+CSS
+===
+Cascading stylesheet
+Need
+====
+Presentation of web page can be achieved with CSS.
+Look and feel, decoration or to make website attractive so that 
+it retain User.
+
+What is CSS?
+===========
+CSS stand Cascading Style Sheet. css file contains style that 
+is applied on HTML element to make web pages attractive or presentable
+to retain user.
+
+Types of css 
+============
+1) inline css
+2) internal css
+3) External css 
+
+
+Inline css 
+==========
+Css written in open tag with style attribute is called as inline 
+css.
+syntax:
+
+<open tag style="property:value;">content</closetag>
+
+Disadvantage of inline css 
+=========================
+If a css of color property is applied for a element in a page.
+If there are 10 elements and client need changes in the color 
+property, then developer need to make those changes at 10 times.
+This consume precious time of developer.
+
+Internal css 
+===========
+Internal css is written in head section within style tag.
+Internal css is common to that page. 
+syntax:
+
+<style>
+        selector{
+
+            property1:value1;
+            property2:value2;
+            property3:value3;
+        }
+</style>
+
+selector is a target element on which css needs to be applied.
+
+
+External CSS 
+===========
+CSS in which a style is written in separate .css file and linked
+to html file is called as External css.
+External css file is linked to html file using link tag in 
+head section.
+
+<link rel="stylesheet" href="relative path of css file">
+
+
+Types of selector 
+================
+selector
+========
+It helps to select html element on which css need to be applied.
+
+There are three types of Selector 
+1) tag selector
+2) id selector
+3) class selector 
+
+Tag selector:
+HTML tag is used as selector to appli css to html element content.
+
+syntax:
+tagname{
+
+    property:value;
+}
+
+Id selector:
+===========
+If there is need to apply different property for same tag in 
+the same html document.
+ID  ===> different property for same tag.
+syntax:
+
+#idname{
+    property:value;
+}
+
+class selector 
+==============
+If there is need to apply same property for different tag use 
+class selector 
+
+syntax:
+
+.classname{
+    property:value;
+}
+
+
+selector having than one selector 
+======================
+tag,id and class these are simple selector or basic selector.
+More than one selector can be used sepaated by comma.
+
+tag,id{
+
+    property:value;
+}
+
+tag,class{
+    property:value;
+}
+
+
+Universal selector 
+=================
+if there is need to apply common property to all web pages e.g 
+if there is need to set default margin for all web pages use 
+universal selector.
+
+syntax:
+*{
+
+    property:value;
+}
+
+
+
+what is user agent stylesheet?
+==============================

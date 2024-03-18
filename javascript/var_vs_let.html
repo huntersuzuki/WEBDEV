@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>
+			Scope of Variables Javacript
+		</title>
+		<script>
+	
+			/*{
+			var x=20;
+			document.write("The value of x: "+x+"<br>");
+			var x=10;
+			document.write("The value of redefined x: " +x+"<br>");
+			}*/
+			
+			/*{
+			
+			let x=20;
+			document.write("The value of x: "+x+"<br>");
+			let x=10;
+			document.write("The value of redefined x: " +x+"<br>");
+			}*/
+			
+			let x=10;
+			document.write("The value of x before scope: "+x+"<br>");
+			
+			
+			function abc(){
+			let x=20;
+			document.write("The value of x inside scope: "+x+"<br>");
+			
+			}
+			
+			abc();
+			
+			var x=30// ERROR cannot redeclare identifier with different keyword.
+			document.write("The value of x after scope: "+x+"<br>");
+			
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

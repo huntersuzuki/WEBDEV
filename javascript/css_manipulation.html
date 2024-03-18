@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>
+			CSS manipulation 
+		</title>
+		<style>
+		
+		</style>
+		<script>
+		
+			var cssman = function(){
+			
+				var x , css_color,css_bg,css_fnt;
+				x = document.getElementById("one");
+				/*css_color = x.style.color
+				alert(css_color);
+				css_bg=x.style.backgroundColor;
+				alert(css_bg);
+				css_fnt = x.style.fontSize;
+				alert(css_fnt);*/
+				x.style.color = "blue";
+				x.style.fontSize="100px";
+				x.style.backgroundColor="yellow";
+			}
+		
+		</script>
+	</head>
+	<body>
+		<h1 id="one" style="color:red;background-color:green;font-size:50px;">DOCUMENT OBJECT MODEL</h1>
+		<button onclick="cssman()" id="btn">Click me!</button>
+	</body>
+</html>

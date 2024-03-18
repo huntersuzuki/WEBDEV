@@ -1,0 +1,39 @@
+.logo{
+	float:left;
+	font-family: 'Kanit', sans-serif;
+	color:c1121f;
+}
+.menu ul{
+	display:inline-block;
+	/*float:center;*/
+	margin-left:200px;
+	margin-top:30px;
+	background-color:e9c46a;
+	border-radius:10px;
+}
+li{
+	display:inline-block;
+	font-size:25px;
+	margin-left:100px;
+}
+.nav{
+	text-decoration:none;
+	font-family: 'Kanit', sans-serif;
+	color:023047;
+	
+}
+/*.nav:hover{
+	
+	animation-name:navbar;
+	animation-duration:0.5s;
+	animation-timing-function:ease-in-out;
+	
+}
+@keyframes navbar{
+	0%{font-size:25px;}
+	100%{font-size: 50px;}
+}
+*/
+.fa-solid.fa-bars{
+	display:none;
+}

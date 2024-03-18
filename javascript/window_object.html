@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>
+			Window| Document object
+		</title>
+		<script>
+		
+		var y = function(){
+		
+			var x,content,z;
+			x = document.getElementById("one");
+			//document.write("Datatype: "+typeof(x));
+		
+			//content=x.innerHTML;
+			//alert(content);
+			x.innerHTML="We have learned document mnipulatin.";
+			z = document.getElementById("btn");
+			z.innerHTML="You clicked";
+		}
+		
+		/*
+        confirm():
+        This function return true if user click on OK button
+        and return false if user click on cancel button.
+        */
+			/*var resp = window.confirm("Do you want to delete");
+			document.write("confirmation response: "+resp);*/
+		</script>
+	</head>
+	<body>
+		<h1 id="one">DOCUMENT OBJECT MODEL</h1>
+		<button onclick="y()" id="btn">Click me!</button>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+
+        <head>
+                <title>
+                    Table Tag
+                </title>
+        </head>
+        <body>
+           <!---  <table>
+
+                <tr><td>Sr No.</td><td>Name</td><td>Price</td></tr>
+                <tr><td>1.</td><td>T-shirt</td><td>2000</td></tr>
+                <tr><td>2.</td><td>Pants</td><td>5000</td></tr>
+                <tr><td>3.</td><td>Shirts</td><td>6500</td></tr>
+            </table> 
+                width = "550px" height = "220px" 
+                width = "20%" height = "200px"-->
+                <!---cellspacing = it's used to controll the space between
+                                    the cells in a table-->
+                <!---cellpadding = it's used to control space within a cell-->
+                <!---cellpadding = "5px" cellspacing = "2px"-->
+                <!---
+                    1. apply width to tr
+                        -not apllicable
+                    2. apply height to tr
+                        -applies to entire row
+                    3. apply width to td
+                -->
+            <table border="2" align="center" >
+                <tr>
+                    <th colspan="3">
+                        Raymond Clothing
+                    </th>
+                </tr>
+                <tr><!---Table Row-->
+                    <th width = "50px">Sr No.</th><!---Table Heading-->
+                    <th width = "50px">Name</th>
+                    <th width = "50px">Price</th>
+                </tr>
+                <tr>
+                    <!---rowspan = is used to expand the row  rowspan="3"-->
+                    <!---<td rowspan="3">1.</td>--->
+                    <td>1.</td><!---Table Data-->
+                    <td >T-shirts</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Pants</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Shirts</td>
+                    <td>6500</td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">Total:</td>
+                    <td>13500</td>
+                </tr>
+            </table>
+        </body>
+</html>

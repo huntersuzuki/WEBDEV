@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="assets/css/register.css">
+</head>
+<body>
+    <form action="">
+        <div class="main">
+            <h1>Register</h1>
+            <label for="emailid">Enter Email: </label>
+            <input type="text" name="usermail" id="emailid" onkeyup="emailvalidation()" />
+            <label for="passid">Enter Password: </label>
+            <input type="text" name="user pass" id="passid" onkeyup="passwordvalidation()">
+            <label for="mobid">Enter Mobile no.</label>
+            <input type="text" name="usermob" id="mobid" onkeyup="mobilenumbervalidation()">
+            <input type="submit" name="submit" value="Register" id="btn" >
+        </div>
+    </form>
+   
+    <script src="assets/js/register.js"></script>
+</body>
+</html>

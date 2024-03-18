@@ -1,0 +1,118 @@
+HTML 5 elements
+===============
+1) audio 
+2) video 
+3) sementic and non-sementic elements.
+
+audio tag: It helps to generate audio player on the browser.
+Files format support: mp3,mpeg and ogg
+
+syntax:
+
+<audio controls>
+      <source src="audio file relative path" type="audio/mp3">
+      <source src="audio file relative path" type="audio/ogg">
+      <source src="audio file relative path" type="audio/mpeg">
+</audio>
+
+or
+
+<audio controls src=""></audio>
+
+control attribute: To generate controls such as play button,pause
+button and volume bar
+
+Using audio tag with source is advantageous as if any of the 
+browser didnt support mp3 and support ogg format for the same 
+song then control from mp3 source falls back to ogg format source.
+and so on for mpeg format.
+So source tag provide fallback if the format is not supported by 
+browser.
+
+loop attribute: it is going to play audio agina and again over a time.
+
+
+
+video tag 
+=========
+To embedded video in browser along with its controls video tag is used.
+
+<video controls width="px" height="px" loop autoplay muted>
+      <source src="video file relative path" type="video/mp3">
+      <source src="video file relative path" type="video/ogg">
+      <source src="video file relative path" type="video/mpeg">
+</video>
+
+
+sementic and non sementic elements/tags
+======================================
+Sementic Tags or elements
+--------------------------
+The tags or elements that specify their meaning to browser as well as to developer
+are called as Sementic Elements.
+Sementic tag add importance or significance to the content between tags.
+e.g Heading tags h1 to h6, strong,p,emp,table etc are example of sementic tags. 
+
+Non-sementic Tags or elements
+----------------------------
+The tags or elements that do not specify their meaning to browser as well as to developer
+are called as non-Sementic Elements.
+They do not add any significance or extra meaning to the content within them.
+
+e.g div,span,b,i etc  
+
+Application of Sementic Tags or advantage of sementic tag over non-sementic tag.
+=====================================================
+1. SEO Optimization: To increase website ranking
+2. Code maintainability
+
+SEO Optimization
+================
+If two website similar in content, but one webiste encloses all content within
+sementic tags and another website encloses all its content within non sementic tags,
+Then website with sementic tags had greater chances of getting displyed on the  
+first google page as compared to others.
+Semetic tags boots ranking of website on google search.
+
+
+Code maintainability
+====================
+Any website is generally divide into 3 parts, header, footer and main content.
+before introduciton of sementic tags , developer were using following format to 
+maintain the code. 
+
+   <div id="header">
+           menu bar, images etc 
+   </div>
+
+   <div id="main">
+       main content of that page.
+   </div>
+
+   <div id="footer">
+     This contain footer.
+   </div>
+
+   The above format was creating a problem for serach engines since it has div tag 
+   which is non sementic ,like google to search he content relative to the keyword 
+   given by user in search bar.
+
+   so a society W3C i.e World Wide Web Consortium has take a decision to convert 
+   this ids into sementic tags.
+   <header> <footer> <main> <section> <sidebar> <address> etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

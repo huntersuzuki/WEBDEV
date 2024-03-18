@@ -1,0 +1,84 @@
+.box{
+	border:3px solid;
+	height:70%;
+	width:30%;
+	margin:100px auto;
+	background-repeat:no-repeat;
+	border-radius:8px;
+	border-width:1px;
+	border-color:gray;
+	
+}
+img{
+	margin-top:30px;
+}
+.box1{
+	margin-left:540px;
+	position:absolute;
+	bottom:85px;
+}
+.box2{
+	margin-left:55%;
+	position:absolute;
+	bottom:90px;
+	text-decoration:none;
+}
+.a1{
+	text-decoration:none;
+	margin-right:20px;
+	position:relative;
+	right:40px;
+	color:gray;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+select{
+	height:30px;	
+	width:150px;
+	border-width:0px;
+}
+img{
+	margin-left:35%;
+	border:0px solid;
+}
+#para1{
+	margin-left:20%;
+	font-size:24px;
+	font-weight:400;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+	border:0px solid;
+}
+#para2{
+	margin-left:35%;
+	font-size:16px;
+	font-weight:400;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+	border:0px solid;
+}
+.uname{
+	height:10%;
+	width:70%;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+	font-size:15px;
+	margin-left:15%;
+	margin-top:20px;
+	border-radius:5px;
+	border-width:1px;
+	border-color:gray;
+	padding:11px;
+}
+[type="submit"]{
+	height:40px;
+	width:80px;
+	position:absolute;
+	bottom:30%;
+	right:40%;
+	border-radius:5px;
+	border-width:0px;
+	background-color:rgb(26,115,232);
+	color:white;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+	font-size:14px;
+	
+}
+

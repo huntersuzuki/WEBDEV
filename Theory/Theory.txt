@@ -1,0 +1,88 @@
+title tage
+==========
+1) It gives title in the tab of web page.
+2) It serve as a title when website is listed by Google search engine.
+
+
+Application
+===========
+Application is a software that is used to perform 
+specific task.
+
+Types:
+=====
+1) Desktop application : offline
+2) Web application     : Online 
+
+Web Architecture
+===============
+
+                  Request
+                -------------->
+        client                  server 
+               <---------------
+                  Response
+
+Client side technology 
+======================
+HTML,CSS and Javascript
+
+HTML      : Structure or skeleton of web page.
+CSS       : Presentation or decoration 
+Javascript: Dynamic 
+
+HTML 
+====
+Hyper text mark up language.
+HTML document is divided into two parts
+1) Head section
+    - It contain page information 
+2) Body section
+    - Body of Web page or content of web page to be 
+      displayed.
+
+
+Comment in HTML 
+==============
+Comments are unexecutable part of web page.
+When a content is enclosed in a comment,it is not executed 
+by browser.[Not displayed by Browser].
+
+<!----Content------>
+
+
+Heading tags
+===========
+These tags are used to give heading to your content.
+There are 6 heading tags in HTML 5.
+<h1><h2>....<h6>
+
+What is difference between bold and strong?
+What is difference between em tag and italic tag?
+
+Formating tags 
+==============
+The tag that changes appearance of content on the browser 
+are called as Formatting Tag.
+h1,h2,h3,h4,h5,h6,strong,b,i,em,del,sup,sub,u etc.
+
+non-formatting tag 
+==================
+p,div,span
+
+Any webpage of website is divided into three parts:
+1) header : remain same for all the pages
+2) main   : that changes as per the page.
+3) footer : Same for all the pages.
+
+<div>
+         header division
+</div>
+
+<div>
+         main section  division
+</div>
+
+<div>
+         footer  division
+</div>

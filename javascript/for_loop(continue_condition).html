@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>
+			for loop using continue
+		</title>
+		<script>
+			var i;
+			
+			
+			for(i=1;i<=10;i++){
+			
+				if(i==5){
+					continue;
+				}
+				document.write(i+"<br>");
+			}
+			
+			document.write("Out of loop");
+			
+			/* 
+				i   i<=10       i==5       i++
+				1	1<=10 T    	1==5 F		 2
+				2   2<=10 T    	2==5 F	     3
+				3   3<=10 T    	3==5 F		 4
+				4	4<=10 T		4==5 F       5
+	 			5   5<=10 T     5==5 T    Out of loop
+					
+			
+			
+			*/
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

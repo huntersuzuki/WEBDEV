@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match method in string</title>
+    <script>
+        var str;
+        str="database management system store the data in the database.data in the database is stored in secured manner"
+       // str=str.match("data"); output --> data
+       // str = str.match(/tech/); // output --> null
+       // str=str.match(/data/);
+        str=str.match(/data/g); // this method is used to find all the     occurances of the given keyword in the entire string.
+        // "g" stand for global.
+        document.write(str+"<br>");
+        document.write(typeof(str)+"<br>");
+        document.write(str[3]);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

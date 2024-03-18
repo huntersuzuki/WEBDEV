@@ -1,0 +1,35 @@
+Element In HTML=open tag + content + close tag 
+
+<p>This is a paragraph</p>
+open+content+close = HTML element 
+
+Element in HTML 
+==============
+The combination of Close tag , content and open
+tag is called as Element in HTML.
+Types of elements
+================
+1) Inline level elememt
+   Elements which occupy browser width as per content size are called
+   as Inline level element.
+   e.g b,strong,emp etc.
+
+2) block level element.
+   Element which occupy entire browser width irrespective of its content.
+   is called as Block level element.
+   e.g Heading tags, p,div etc are block level element.
+
+
+anchor tag 
+=========
+This tag is used to link one web page to another web page.
+It direct the user from one page to another page.
+<a href="relative path of page" target="" >Content</a>
+
+
+image tag 
+=========
+It is used to access image in the browser.
+img tag is used to access image.
+img is a void tag, it do not have closing tag.
+<img src="relative path of image" alt="alternet text" width="npx" height="npx">

@@ -1,0 +1,3 @@
+what is difference between while loop and for loop?
+what is the difference between for loop and do while loop?
+what is difference between while and do while loop?

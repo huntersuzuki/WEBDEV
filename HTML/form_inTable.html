@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>
+            Form In table
+        </title>
+    </head>
+    <body>
+        <form method="get">
+        <fieldset>
+            <legend><b>Student Information</b></legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="firts">Enter Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="uname" id="first" placeholder="Enter name" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="second">Enter Roll No:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="rno" placeholder="Enter roll no."/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="third">Enter Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" placeholder="Enter Email"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="fourth">Enter Password:</lable>
+                    </td>
+                    <td>
+                        <input type="password" name="upass" placeholder="Enter Password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fifth">Enter Date of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="udate"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sixth">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="uadd" id="sixth" cols="60" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="seventh">State:</label>
+                    </td>
+                    <td>
+                        <select name="ustate" id="seventh">
+                            <option>  select state  </option>
+                            <option value="MH" selected>  Maharashtra  </option>
+                            <option value="TN">  Tamil Nadu  </option>
+                            <option value="KN">  Karnataka  </option>
+                            <option value="MP">  Madhya Pradesh  </option>
+                            <option value="PB">  Punjab  </option>
+                        </select>
+                    </td>
+                </tr>
+                <!---Multiple Selected-->
+                <tr>
+                    <td>
+                        <label for="eight">State:</label>
+                    </td>
+                    <td>
+                        <select name="ustate" id="eight" multiple>
+                            <option>  select state  </option>
+                            <option value="MH">  Maharashtra  </option>
+                            <option value="TN">  Tamil Nadu  </option>
+                            <option value="KN">  Karnataka  </option>
+                            <option value="MP">  Madhya Pradesh  </option>
+                            <option value="PB">  Punjab  </option>
+                        </select>
+                    </td>
+                </tr>
+                <!---Checkboxes-->
+                <tr>
+                    <td>
+                        <label for="nineth">Select cources:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="check1" name="course" value="SQL">
+                        <label for="check1">SQL</label>
+                        <input type="checkbox" id="check2" name="course" value="ang"/>
+                        <label for="check2">Angular</label>
+                        <input type="checkbox" id="check3" name="course"
+                        value="py"/>
+                        <label for="check3">Python</label>
+                    </td>
+                </tr>
+                <!---radiobuttons-->
+                <tr>
+                    <td>
+                        <label for="tenth">Select gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="rbtn1" name="gender" value="M">
+                        <label for="rbtn1">Male</label>
+                        <input type="radio" id="rbtn2" name="gender" value="F"/>
+                        <label for="rbtn2">Female</label>
+                        <input type="radio" id="rbtn3" name="gender"value="ot"/>
+                        <label for="rbtn3">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="save"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>

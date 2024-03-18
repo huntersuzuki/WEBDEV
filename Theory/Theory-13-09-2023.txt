@@ -1,0 +1,36 @@
+table tag
+=========
+colspan: To span a table column over other columns use colspan.
+rowspan
+
+
+form tag : To take input from user there is need of form tag and form 
+========   elements.
+<form >
+      form elements
+</form>
+
+Form elements:
+1) input: text,number,email,password,date, submit, file [image,pdf,word etc]
+2) textarea, select-dropdown, checkboxes, radiobuttion 
+
+
+input box is area given to user on browser to 
+give input or to enter data.
+input box is given by input tag.
+<input />
+
+attributes:
+type="text|number|password|email|file|date"
+name=
+
+methods of form submission
+==========================
+Form is submitted by POST method.
+method is specified in the method attribute of form tag.
+
+<form method="POST|GET">
+
+</form>
+
+default method of form submission is GET

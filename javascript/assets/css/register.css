@@ -1,0 +1,14 @@
+.main input{
+    display: block;
+    margin-bottom: 50px;
+    width: 200px;
+    font-size: large;
+    padding: 5px;
+}
+.main label{
+    font-size: larger;
+}
+.main{
+    margin-left: 45%;
+    margin-top: 200px;
+}

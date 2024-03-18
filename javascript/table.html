@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>
+			Table
+		</title>
+		<script>
+			/*
+                                 n=2
+                                   n  i
+                                 2=2*1
+                                 4=2*2
+                                 6=2*3
+                                 8=2*4
+                                10=2*5  ====> r=n*i
+                                12=2*6
+                                14=2*7
+                                16=2*8
+                                18=2*9
+                                20=2*10
+process is repeated hence loop
+                                1) multiply
+                                2) store
+                                3) print
+
+                                initialization i=1
+                                condition      i<=10
+                                increment      i++
+                           */
+						   
+						   var n,i,res;
+						   i=1;
+						   n=parseFloat(prompt("Enter a number: "));
+						   
+						   while(i<=10){
+						   
+								res=n*i;
+								document.write(n+"*"+i+"="+res+"<br>");
+								i++;
+						   }
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

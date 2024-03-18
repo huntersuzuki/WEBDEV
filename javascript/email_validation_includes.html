@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>
+			Email validatin|Includes
+		</title>
+	</head>
+	<script>
+		var uemail;
+		
+		uemail = prompt("Enter a email address: ");
+		
+		/*if(!uemail.includes("@")){
+			alert("Invalid email address");
+		
+		}
+		else if(!(uemail.includes(".com")||uemail.includes(".in")||uemail.includes(".org"))){
+			alert("Invalid email address")
+		
+		}
+		else{
+			alert("Entered email is valid!!");
+		}*/
+		
+		if(uemail.includes("@")){
+			if(uemail.includes(".com")||uemail.includes(".in")||uemail.includes(".org")||uemail.includes(".edu")){
+			
+				alert("The email is valid");
+			}
+			else{
+				alert("invalid email address");
+			}
+		}
+		else{
+			alert("Invalid email address");
+		}
+	</script>
+	<body>
+		
+	</body>
+</html>

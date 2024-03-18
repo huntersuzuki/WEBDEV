@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+			Mobile number validation logic
+		</title>
+		<script>
+			var mob,x,res;
+			x = prompt("Enter mobile number: ");
+			document.write(x+"<br>");
+			x = x.replace('.','');
+			document.write(x);
+			mob=Number(x);
+			res=isNaN(mob);
+			
+			
+			if(res){
+				alert("Enter a Valid Mobile number!!!!");
+			}
+			else if(x.length != 10){
+				alert("Please enter 10 digit mobile number");
+			}
+			else{
+				alert("Congratulation the entered mobile number is accepted !!!!");
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
